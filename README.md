@@ -25,4 +25,4 @@ This patch is licensed under the [Sitecore Corporation A/S License](LICENSE).
 
 ## Download
 
-Downloads are available via [GitHub Releases](/releases).
+Downloads are available via [GitHub Releases](https://github.com/SitecoreSupport/Sitecore.Support.82262/releases).
