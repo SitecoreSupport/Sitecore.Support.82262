@@ -30,16 +30,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Sitecore.ExperienceEditor.Speak">
-      <HintPath>..\..\..\..\..\..\..\inetpub\wwwroot\sc80update6\Website\bin\Sitecore.ExperienceEditor.Speak.dll</HintPath>
+    <Reference Include="Sitecore.ExperienceEditor.Speak, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Sitecore.ExperienceEditor.Speak.8.0.6.151127\lib\Sitecore.ExperienceEditor.Speak.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.ExperienceEditor.Speak.Ribbon">
-      <HintPath>..\..\..\..\..\..\..\inetpub\wwwroot\sc80update6\Website\bin\Sitecore.ExperienceEditor.Speak.Ribbon.dll</HintPath>
+    <Reference Include="Sitecore.ExperienceEditor.Speak.Ribbon, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Sitecore.ExperienceEditor.Speak.Ribbon.8.0.6.151127\lib\Sitecore.ExperienceEditor.Speak.Ribbon.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.Kernel">
-      <HintPath>..\..\..\..\..\..\..\inetpub\wwwroot\sc80update6\Website\bin\Sitecore.Kernel.dll</HintPath>
+    <Reference Include="Sitecore.Kernel, Version=8.0.5352.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Sitecore.Kernel.8.0.6.151127\lib\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -59,6 +59,7 @@
     <None Include="App_Config\Include\z.Sitecore.Support.82262.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
